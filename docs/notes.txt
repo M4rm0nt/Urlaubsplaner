@@ -1,0 +1,9 @@
+marmont@stoker ~/ideas
+$ javac -d bin src/main/java/de/marmont/urlaubsplaner/*.java src/main/java/de/marmont/urlaubsplaner/model/*.java src/main/java/de/marmont/urlaubsplaner/service/*.java src/main/java/de/marmont/urlaubsplaner/view/*.java
+
+marmont@stoker ~/ideas/bin
+$ jar cvfe Urlaubsplaner.jar de.marmont.urlaubsplaner.Urlaubsplaner -C . .
+
+marmont@stoker ~/ideas/bin
+$ java -jar Urlaubsplaner.jar
+
